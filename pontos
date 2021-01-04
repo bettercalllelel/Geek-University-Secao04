@@ -1,0 +1,4 @@
+x = int(input('Diga o ponto x:\n'))
+y = int(input('Diga o  ponto y:\n'))
+
+print('A distância da origem (0,0) é (',x,',',y,')')
