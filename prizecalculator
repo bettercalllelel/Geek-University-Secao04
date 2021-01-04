@@ -1,0 +1,6 @@
+prize = float(input('How much was the prize:\n'))
+firstb = float(input('Say how many percent the first person pay:\n'))
+secb = float(input('Say how many percent the second person pay:\n'))
+thirdb = float(input('Say how many percent the third person pay:\n'))
+
+print('The prize was $', prize,'. The first person will receive $',prize/100*firstb,'. The second person will receive $', prize/100*secb,'. The third person will receive $', prize/100*thirdb,'.')
