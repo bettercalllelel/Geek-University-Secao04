@@ -1,0 +1,9 @@
+preco = float(input('Preço da cerca por metro quadrado:\n'))
+larg = int(input('Largura do terreno:\n'))
+comp = int(input('Comprimento do terreno:\n'))
+
+total = (larg*comp)*preco
+
+print('O valor total para cercar o terreno é de R$', total)
+
+
